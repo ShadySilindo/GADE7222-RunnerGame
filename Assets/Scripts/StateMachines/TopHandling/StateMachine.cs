@@ -56,4 +56,9 @@ public abstract class StateMachine<EState> : MonoBehaviour where EState : Enum
 	{
 		CurrentState.OnTriggerExit(other);
 	}
+
+	internal void TransitionToState(object chasePlayerState)
+	{
+		throw new NotImplementedException();
+	}
 }
